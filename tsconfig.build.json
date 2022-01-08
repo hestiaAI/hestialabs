@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "es2020",
+    "module": "esnext",
     "target": "es2016",
-    "allowJs": false,
+    "allowJs": true,
     "lib": ["dom", "es2017"],
     // TS v4.2
     // "explainFiles": true,
@@ -21,6 +21,15 @@
       "collaborators/*": ["shared/collaborators/*"],
       "icons/*": ["shared/icons/*"],
       "preprocessors/*": ["shared/preprocessors/*"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "types": ["node"],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true
     }
   },
   "exclude": ["node_modules", "dist"]

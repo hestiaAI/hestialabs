@@ -46,7 +46,7 @@
     "@typescript-eslint/parser": "~5.30.0",
     "ajv": "^8.11.0",
     "babel-loader": "^8.2.3",
-    "eslint": "~8.18.0",
+    "eslint": "~8.20.0",
     "eslint-config-prettier": "~8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "~2.26.0",
